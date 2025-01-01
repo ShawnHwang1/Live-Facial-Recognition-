@@ -18,7 +18,7 @@ Thresholds are selected based on loss functions and training and validation phas
 ### Live input feed v_2: [0.3, 0.6, 0.7,..]
 ![image](https://github.com/user-attachments/assets/5f332022-5af0-4c4b-84b5-7f15dbc7aae3)
 
-Image data is first converted into data points
-The points are then fed into a distance formula.
-The distance computed is 0.173. Let's assume that the threshold is 0.2.
-Since 0.173 < 0.2, the program returns that the person being scanned is a match with one in the database.
+1. Image data is first converted into data points
+2. The points are then fed into a distance formula.
+3. The distance computed is 0.173. Let's assume that the threshold is 0.2.
+4. Since 0.173 < 0.2, the program returns that the person being scanned is a match with one in the database.
