@@ -7,7 +7,14 @@ Python program that allows for live facial recognition given a data set with ima
 3. Pip install open-cv, deepface, threading
 4. Run the program
 
-# Math
+# Math & How it Works
+The deepface libary processes an image using: Convolutional Neural Networks (CNNs) <br />
+CNN analyzes the image and extract high-level features, such as the shape of the nose, eyes, and other facial structures. <br />
+These features are converted into a numerical representation called an embedding or feature vector.<br />
+Each face is represented as a vector in a high-dimensional space (e.g., a 128-dimensional vector for many models).
+Mathematically, this is: <br />
+### embedding = f(inputIMG)
+
 ![image](https://github.com/user-attachments/assets/bf8b07c2-418e-4b8e-85ec-16e2ec7c5188)
 
 These formulas are used to compute the distances between the embeddings of the reference and the live image.
